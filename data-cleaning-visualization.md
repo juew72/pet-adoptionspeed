@@ -35,7 +35,7 @@ df[['Breed1','Breed2']] = df[['Breed1','Breed2']].replace([266,265,264,299,292],
                                                          ['Domestic short hair','Domestic medium hair',
                                                           'Domestic long hair','Tabby','Siamese'])
 ```
-### Change the Maturity Size: 1 = Small, 2 = Medium, 3 = Large, 4 = Extra Large, 0 = Not Sure
+#### Change the Maturity Size: 1 = Small, 2 = Medium, 3 = Large, 4 = Extra Large, 0 = Not Sure
 ```
 #1 = Small, 2 = Medium, 3 = Large, 4 = Extra Large, 0 = Not Sure
 df[['MaturitySize']] = df[['MaturitySize']].replace([0,1,2,3,4],
