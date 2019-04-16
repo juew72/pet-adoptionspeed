@@ -4,60 +4,64 @@ title: Data Overview
 subtitle: 
 bigimg: /img/start.jpg
 ---
+## Changing values in different columns
 
-## Here is where we can insert an image:
+We can see that three color columns (Color1, Color2, Color3) are numbers from 0 to 7, which have corresponding ColorName from color_labels.csv, so I need to change it for better visualization.
+
+### Change the Color to Strings based on color_labels.csv
+```
+df[['Color1','Color2','Color3']] = df[['Color1','Color2','Color3']].replace([1,2,3,4,5,6,7],
+                            ['Black','Brown','Golden','Yellow','Cream','Gray','White'])
+df[['Color1','Color2','Color3']] = df[['Color1','Color2','Color3']].replace(0,'none')
+```
+### Change the top 5 dog/cat breeds to names
+```
+df[['Breed1','Breed2']] = df[['Breed1','Breed2']].replace([307,179,205,109,20],
+                                                         ['Mixed breeds','Poddle','Shih Tzu',
+                                                          'Golden Retriever','Ibizan Hound'])
+
+
+df[['Breed1','Breed2']] = df[['Breed1','Breed2']].replace([266,265,264,299,292],
+                                                         ['Domestic short hair','Domestic medium hair',
+                                                          'Domestic long hair','Tabby','Siamese'])
+```
+### Change the Maturity Size: 1 = Small, 2 = Medium, 3 = Large, 4 = Extra Large, 0 = Not Sure
+```
+#1 = Small, 2 = Medium, 3 = Large, 4 = Extra Large, 0 = Not Sure
+df[['MaturitySize']] = df[['MaturitySize']].replace([0,1,2,3,4],
+                            ['Not Sure','Small','Medium','Large','Extra Large'])
+```
+### Change the Fur Length: 1 = Short, 2 = Medium, 3 = Long, 0 = Not Sure
+```
+df[['FurLength']] = df[['FurLength']].replace([0,1,2,3],['Not Sure','Short','Medium','Long'])
+```
+### Change the vacinated, Dewormed, Sterilized as the following: 
+### vaccinated (1 = Yes, 2 = No, 3 = Not Sure)
+### Dewormed - Pet has been dewormed (1 = Yes, 2 = No, 3 = Not Sure)
+### Sterilized - Pet has been spayed / neutered (1 = Yes, 2 = No, 3 = Not Sure)
+```
+df[['Vaccinated']] = df[['Vaccinated']].replace([1,2,3],['Yes','No','Not Sure'])
+df[['Dewormed']] = df[['Dewormed']].replace([1,2,3],['Yes','No','Not Sure'])
+df[['Sterilized']] = df[['Sterilized']].replace([1,2,3],['Yes','No','Not Sure'])
+```
+### Change the health: 1 = Healthy, 2 = Minor Injury, 3 = Serious Injury, 0 = Not Sure
+```
+df[['Health']] = df[['Health']].replace([0,1,2,3],['Not Sure','Healthy','Minor Injury','Serious Injury'])
+```
+### Change the DataType: 1 = Dog, 2 = Cat
+```
+df[['Type']] = df[['Type']].replace([1,2],['Dog','Cat'])
+```
+### Drop unuseful columns and drop the AdoptionSpeed = null rows
+```
+df = df.drop(df['AdoptionSpeed'].isnull() == True)
+df = df.drop(['DataType','Description','PetID','PhotoAmt','RescuerID','State','Name','VideoAmt'], axis = 1)
+```
+### Save as csv in order to import to Tableau and will be easier for further plots in python
+```
+df.to_csv('visualization-data.csv')
+```
+
+## Here is what I got after cleaning the dataset:
 
 ![GW Data Science logo](/img/gwdsp.png)
-
-## How about a link?
-
-And of course some text, and maybe [a link to https://datasci.columbian.gwu.edu/](https://datasci.columbian.gwu.edu/)
-
-## Or some code?
-
-Some code might go here:
-
-```
-x <- 5 # Here's some R code
-```
-
-What if I just paste the HTML for a plotly plot?
-
-We can do it with a line of markdown that looks like this (without the slashes - I haven't solved that problem just yet...):
-```
-\{\% include jupyter-basic_bar.html \%\}
-```
-{% include jupyter-basic_bar.html %}
-
-## File Descriptions
-There are 4 csv files and 2 zip files in I am using:
-train.csv - The training dataset includes tabular/text data
-test.csv - The test dataset includes tabular/text data
-breed_labels.csv - Contains Type, and BreedName for each BreedID. Type 1 is dog, 2 is cat.
-color_labels.csv - Contains ColorName for each ColorID
-
-## Data Fields
-PetID - Unique hash ID of pet profile
-AdoptionSpeed - Categorical speed of adoption. Lower is faster. This is the value to predict. See below section for more info.
-Type - Type of animal (1 = Dog, 2 = Cat)
-Name - Name of pet (Empty if not named)
-Age - Age of pet when listed, in months
-Breed1 - Primary breed of pet (Refer to BreedLabels dictionary)
-Breed2 - Secondary breed of pet, if pet is of mixed breed (Refer to BreedLabels dictionary)
-Gender - Gender of pet (1 = Male, 2 = Female, 3 = Mixed, if profile represents group of pets)
-Color1 - Color 1 of pet (Refer to ColorLabels dictionary)
-Color2 - Color 2 of pet (Refer to ColorLabels dictionary)
-Color3 - Color 3 of pet (Refer to ColorLabels dictionary)
-MaturitySize - Size at maturity (1 = Small, 2 = Medium, 3 = Large, 4 = Extra Large, 0 = Not Specified)
-FurLength - Fur length (1 = Short, 2 = Medium, 3 = Long, 0 = Not Specified)
-Vaccinated - Pet has been vaccinated (1 = Yes, 2 = No, 3 = Not Sure)
-Dewormed - Pet has been dewormed (1 = Yes, 2 = No, 3 = Not Sure)
-Sterilized - Pet has been spayed / neutered (1 = Yes, 2 = No, 3 = Not Sure)
-Health - Health Condition (1 = Healthy, 2 = Minor Injury, 3 = Serious Injury, 0 = Not Specified)
-Quantity - Number of pets represented in profile
-Fee - Adoption fee (0 = Free)
-State - State location in Malaysia (Refer to StateLabels dictionary)
-RescuerID - Unique hash ID of rescuer
-VideoAmt - Total uploaded videos for this pet
-PhotoAmt - Total uploaded photos for this pet
-Description - Profile write-up for this pet. The primary language used is English, with some in Malay or Chinese.
