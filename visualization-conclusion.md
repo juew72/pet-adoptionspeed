@@ -21,14 +21,13 @@ Some code might go here:
 x <- 5 # Here's some R code
 ```
 
-### Color
+### Color/ Fee/ Health Condition vs Adoption Speed
 ```
-\{\% include color.html \%\}
+\{\% include colorfeehealth.html \%\}
 ```
-{% include color.html %}
+{% include colorfeehealth.html %}
 
-### Health Condition/Fee
+### Color & Fee & Health Condtion
 ```
 \{\% include others.html \%\}
 ```
-{% include others.html %}
