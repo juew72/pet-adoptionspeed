@@ -36,7 +36,6 @@ navbar-links:
     - Basic Visualization: "visualization"
     - More visualization & Conclusion: "visualization-conclusion"
   NLP:
-    - Data Cleaning: "data-cleaning-nlp"
     - LSI & LDA: "lsi-lda"
     - Random Forest: "randomforest"
   Deep-Learning: "deep-learning"
