@@ -84,13 +84,13 @@ df[['Gender']] = df[['Gender']].replace([1,2,3],['Male','Female','Neutered/Spray
 
 ```
 df = df.drop(df['AdoptionSpeed'].isnull() == True)
-df = df.drop(['DataType','Description','PetID','Name'], axis = 1)
+df = df.drop(['PhotoAmt','RescuerID','State','VideoAmt'], axis = 1)
 ```
 
 #### Save as csv in order to import to Tableau and will be easier for further plots in python
 
 ```
-df.to_csv('visualization-data.csv')
+df.to_csv('cleaned-data.csv')
 ```
 
 ### Here is what I got after cleaning the dataset:
