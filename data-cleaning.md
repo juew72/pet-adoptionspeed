@@ -36,9 +36,9 @@ df[['MaturitySize']] = df[['MaturitySize']].replace([0,1,2,3,4],
 df[['FurLength']] = df[['FurLength']].replace([0,1,2,3],['Not Sure','Short','Medium','Long'])
 ```
 ### Change the vacinated, Dewormed, Sterilized as the following: 
-### vaccinated (1 = Yes, 2 = No, 3 = Not Sure)
-### Dewormed - Pet has been dewormed (1 = Yes, 2 = No, 3 = Not Sure)
-### Sterilized - Pet has been spayed / neutered (1 = Yes, 2 = No, 3 = Not Sure)
+### * vaccinated (1 = Yes, 2 = No, 3 = Not Sure)
+### * Dewormed - Pet has been dewormed (1 = Yes, 2 = No, 3 = Not Sure)
+### * Sterilized - Pet has been spayed / neutered (1 = Yes, 2 = No, 3 = Not Sure)
 ```
 df[['Vaccinated']] = df[['Vaccinated']].replace([1,2,3],['Yes','No','Not Sure'])
 df[['Dewormed']] = df[['Dewormed']].replace([1,2,3],['Yes','No','Not Sure'])
