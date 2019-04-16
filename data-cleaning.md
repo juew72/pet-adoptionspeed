@@ -8,13 +8,13 @@ bigimg: /img/start.jpg
 
 We can see that three color columns (Color1, Color2, Color3) are numbers from 0 to 7, which have corresponding ColorName from color_labels.csv, so I need to change it for better visualization.
 
-### Change the Color to Strings based on color_labels.csv
+#### Change the Color to Strings based on color_labels.csv
 ```
 df[['Color1','Color2','Color3']] = df[['Color1','Color2','Color3']].replace([1,2,3,4,5,6,7],
                             ['Black','Brown','Golden','Yellow','Cream','Gray','White'])
 df[['Color1','Color2','Color3']] = df[['Color1','Color2','Color3']].replace(0,'none')
 ```
-### Change the top 5 dog/cat breeds to names
+#### Change the top 5 dog/cat breeds to names
 ```
 df[['Breed1','Breed2']] = df[['Breed1','Breed2']].replace([307,179,205,109,20],
                                                          ['Mixed breeds','Poddle','Shih Tzu',
@@ -31,41 +31,41 @@ df[['Breed1','Breed2']] = df[['Breed1','Breed2']].replace([266,265,264,299,292],
 df[['MaturitySize']] = df[['MaturitySize']].replace([0,1,2,3,4],
                             ['Not Sure','Small','Medium','Large','Extra Large'])
 ```
-### Change the Fur Length: 1 = Short, 2 = Medium, 3 = Long, 0 = Not Sure
+#### Change the Fur Length: 1 = Short, 2 = Medium, 3 = Long, 0 = Not Sure
 ```
 df[['FurLength']] = df[['FurLength']].replace([0,1,2,3],['Not Sure','Short','Medium','Long'])
 ```
-### Change the vacinated, Dewormed, Sterilized as the following: 
-### * vaccinated (1 = Yes, 2 = No, 3 = Not Sure)
-### * Dewormed - Pet has been dewormed (1 = Yes, 2 = No, 3 = Not Sure)
-### * Sterilized - Pet has been spayed / neutered (1 = Yes, 2 = No, 3 = Not Sure)
+#### Change the vacinated, Dewormed, Sterilized as the following: 
+#### *vaccinated (1 = Yes, 2 = No, 3 = Not Sure)
+#### *Dewormed - Pet has been dewormed (1 = Yes, 2 = No, 3 = Not Sure)
+#### *Sterilized - Pet has been spayed / neutered (1 = Yes, 2 = No, 3 = Not Sure)
 ```
 df[['Vaccinated']] = df[['Vaccinated']].replace([1,2,3],['Yes','No','Not Sure'])
 df[['Dewormed']] = df[['Dewormed']].replace([1,2,3],['Yes','No','Not Sure'])
 df[['Sterilized']] = df[['Sterilized']].replace([1,2,3],['Yes','No','Not Sure'])
 ```
-### Change the health: 1 = Healthy, 2 = Minor Injury, 3 = Serious Injury, 0 = Not Sure
+#### Change the health: 1 = Healthy, 2 = Minor Injury, 3 = Serious Injury, 0 = Not Sure
 ```
 df[['Health']] = df[['Health']].replace([0,1,2,3],['Not Sure','Healthy','Minor Injury','Serious Injury'])
 ```
-### Change the DataType: 1 = Dog, 2 = Cat
+#### Change the DataType: 1 = Dog, 2 = Cat
 ```
 df[['Type']] = df[['Type']].replace([1,2],['Dog','Cat'])
 ```
-### Change the Gender: 1 = Male, 2 = Female, 3 = Neutered/Sprayed
+#### Change the Gender: 1 = Male, 2 = Female, 3 = Neutered/Sprayed
 ```
 df[['Gender']] = df[['Gender']].replace([1,2,3],['Male','Female','Neutered/Sprayed'])
 ```
-### Drop unuseful columns and drop the AdoptionSpeed = null rows
+#### Drop unuseful columns and drop the AdoptionSpeed = null rows
 ```
 df = df.drop(df['AdoptionSpeed'].isnull() == True)
 df = df.drop(['DataType','Description','PetID','Name'], axis = 1)
 ```
-### Save as csv in order to import to Tableau and will be easier for further plots in python
+#### Save as csv in order to import to Tableau and will be easier for further plots in python
 ```
 df.to_csv('visualization-data.csv')
 ```
 
-## Here is what I got after cleaning the dataset:
+### Here is what I got after cleaning the dataset:
 
 ![GW Data Science logo](/img/gwdsp.png)
