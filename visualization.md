@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Visualization
-subtitle: subtitle as basic visualization
+subtitle: visualizations for main variables
 bigimg: /img/start.jpg
 ---
 
