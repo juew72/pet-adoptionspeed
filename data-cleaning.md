@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Data Overview
+title: Data Cleaning
 subtitle: 
 bigimg: /img/start.jpg
 ---
@@ -52,10 +52,14 @@ df[['Health']] = df[['Health']].replace([0,1,2,3],['Not Sure','Healthy','Minor I
 ```
 df[['Type']] = df[['Type']].replace([1,2],['Dog','Cat'])
 ```
+### Change the Gender: 1 = Male, 2 = Female, 3 = Neutered/Sprayed
+```
+df[['Gender']] = df[['Gender']].replace([1,2,3],['Male','Female','Neutered/Sprayed'])
+```
 ### Drop unuseful columns and drop the AdoptionSpeed = null rows
 ```
 df = df.drop(df['AdoptionSpeed'].isnull() == True)
-df = df.drop(['DataType','Description','PetID','PhotoAmt','RescuerID','State','Name','VideoAmt'], axis = 1)
+df = df.drop(['DataType','Description','PetID','Name'], axis = 1)
 ```
 ### Save as csv in order to import to Tableau and will be easier for further plots in python
 ```
