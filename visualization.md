@@ -33,3 +33,26 @@ x <- 5 # Here's some R code
 ```
 {% include age.html %}
 
+### Breed
+```
+\{\% include breed.html \%\}
+```
+{% include breed.html %}
+
+### Gender -- NEED TO CHANGE
+```
+\{\% include age.html \%\}
+```
+{% include age.html %}
+
+### Maturity Size
+```
+\{\% include maturitysize.html \%\}
+```
+{% include maturitysize.html %}
+
+### Fur Length
+```
+\{\% include furlength.html \%\}
+```
+{% include furlength.html %}
