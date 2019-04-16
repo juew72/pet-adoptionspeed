@@ -23,11 +23,11 @@ bigimg: /img/start.jpg
 ```
 {% include breed.html %}
 
-### Gender -- NEED TO CHANGE
+### Gender
 ```
-\{\% include age.html \%\}
+\{\% include gender.html \%\}
 ```
-{% include age.html %}
+{% include gender.html %}
 
 ### Maturity Size
 ```
