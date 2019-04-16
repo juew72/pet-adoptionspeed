@@ -29,5 +29,5 @@ x <- 5 # Here's some R code
 
 ### Color & Fee & Health Condtion
 ```
-\{\% include others.html \%\}
+
 ```
