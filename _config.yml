@@ -36,6 +36,8 @@ navbar-links:
   Example pages:
     - Example of a Markdown page: "md-example"
     - Example of an HTML page: "html-example"
+  Visualization:
+    - basic visualization: "basic-visualization"
   About me: "https://www.linkedin.com/school/george-washington-university/about/"
 
 # --- Footer options --- #
