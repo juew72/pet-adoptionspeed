@@ -33,8 +33,8 @@ navbar-links:
     - Overview: "overview"
     - Data Cleaning: "data-cleaning"
   Visualization:
-    - Data Cleaning: "data-cleaning-visualization"
     - Basic Visualization: "visualization"
+    - More visualization & Conclusion: "visualization-conclusion"
   NLP:
     - Data Cleaning: "data-cleaning-nlp"
     - LSI & LDA: "lsi-lda"
