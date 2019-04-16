@@ -29,5 +29,6 @@ x <- 5 # Here's some R code
 
 ### Color & Fee & Health Condtion
 ```
-
+\{\% include colorfeehealthadoption.html \%\}
 ```
+{% include colorfeehealthadoption.html %}
