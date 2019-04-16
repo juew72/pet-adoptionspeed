@@ -28,7 +28,5 @@ x <- 5 # Here's some R code
 {% include colorfeehealth.html %}
 
 ### Color & Fee & Health Condtion
-```
-\{\% include colorfeehealthadoption.html \%\}
-```
-{% include colorfeehealthadoption.html %}
+
+[Link to Tableau](https://public.tableau.com/profile/juew72#!/vizhome/others_15554523598650/ColorFeeHealthConditionAdoptionSpeed?publish=yes)
