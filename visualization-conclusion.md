@@ -26,3 +26,9 @@ x <- 5 # Here's some R code
 \{\% include color.html \%\}
 ```
 {% include color.html %}
+
+### Health Condition/Fee
+```
+\{\% include others.html \%\}
+```
+{% include others.html %}
