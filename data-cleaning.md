@@ -6,7 +6,17 @@ bigimg: /img/start.jpg
 ---
 ## Changing values in different columns
 
-We can see that three color columns (Color1, Color2, Color3) are numbers from 0 to 7, which have corresponding ColorName from color_labels.csv, so I need to change it for better visualization.
+We can see that the following columns are all listed based on integers, which have corresponding values. In order to get bettervisualization, I will change all of them to strings. Those Columns are:
+- three color columns (Color1, Color2, Color3)
+- two breed columns (breed1, breed2)
+- MaturitySize
+- FurLength
+- Vaccinated
+- Dewormed
+- Sterilized, 
+- Health
+- DataType
+- Gender
 
 #### Change the Color to Strings based on color_labels.csv
 ```
@@ -35,8 +45,8 @@ df[['MaturitySize']] = df[['MaturitySize']].replace([0,1,2,3,4],
 ```
 df[['FurLength']] = df[['FurLength']].replace([0,1,2,3],['Not Sure','Short','Medium','Long'])
 ```
-#### Change the vacinated, Dewormed, Sterilized as the following: 
-#### *vaccinated (1 = Yes, 2 = No, 3 = Not Sure)
+#### Change the Vacinated, Dewormed, Sterilized as the following: 
+#### *Vaccinated (1 = Yes, 2 = No, 3 = Not Sure)
 #### *Dewormed - Pet has been dewormed (1 = Yes, 2 = No, 3 = Not Sure)
 #### *Sterilized - Pet has been spayed / neutered (1 = Yes, 2 = No, 3 = Not Sure)
 ```
@@ -44,7 +54,7 @@ df[['Vaccinated']] = df[['Vaccinated']].replace([1,2,3],['Yes','No','Not Sure'])
 df[['Dewormed']] = df[['Dewormed']].replace([1,2,3],['Yes','No','Not Sure'])
 df[['Sterilized']] = df[['Sterilized']].replace([1,2,3],['Yes','No','Not Sure'])
 ```
-#### Change the health: 1 = Healthy, 2 = Minor Injury, 3 = Serious Injury, 0 = Not Sure
+#### Change the Health: 1 = Healthy, 2 = Minor Injury, 3 = Serious Injury, 0 = Not Sure
 ```
 df[['Health']] = df[['Health']].replace([0,1,2,3],['Not Sure','Healthy','Minor Injury','Serious Injury'])
 ```
