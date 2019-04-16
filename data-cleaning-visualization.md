@@ -23,6 +23,7 @@ We can see that the following columns are all listed based on integers, which ha
 
 ```
 df[['Color1','Color2','Color3']] = df[['Color1','Color2','Color3']].replace([1,2,3,4,5,6,7],['Black','Brown','Golden','Yellow','Cream','Gray','White'])
+
 df[['Color1','Color2','Color3']] = df[['Color1','Color2','Color3']].replace(0,'none')
 ```
 
