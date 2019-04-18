@@ -95,4 +95,4 @@ df.to_csv('cleaned-data.csv')
 
 ### Here is what I got after cleaning the dataset:
 
-![GW Data Science logo](/img/gwdsp.png)
+![GW Data Science logo](/img/cleaned-data.png)
