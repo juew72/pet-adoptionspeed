@@ -30,3 +30,15 @@ x <- 5 # Here's some R code
 ### Color & Fee & Health Condtion
 
 [Link to Tableau](https://public.tableau.com/profile/juew72#!/vizhome/others_15554523598650/ColorFeeHealthConditionAdoptionSpeed?publish=yes)
+
+### D3 version of Gender
+```
+\{\% include colorfeehealth.html \%\}
+```
+{% include colorfeehealth.html %}
+
+### Plotly Adoption Speed
+```
+\{\% include colorfeehealth.html \%\}
+```
+{% include colorfeehealth.html %}
