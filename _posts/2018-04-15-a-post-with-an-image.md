@@ -1,7 +1,7 @@
 ---
 layout: post
-title: A blog post with an image
-subtitle: Subtitle goes here
+title: Visualization
+subtitle: ohhhh....
 bigimg: /img/path.jpg
 ---
 
