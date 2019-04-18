@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Example how to use markdown
-subtitle: Each post also has a subtitle
+title: Key Findings
+subtitle: conclusions
 ---
 
 You can write regular [markdown](http://en.wikipedia.org/wiki/Markdown) here and Jekyll will automatically convert it to a nice webpage.
