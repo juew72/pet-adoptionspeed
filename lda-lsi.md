@@ -62,7 +62,7 @@ for index in range(0,t):
     print("Topic Number %s:" % str(index+1), lda.print_topic(index, 9))
 print("-" * 120)
 ```
-Screen shot!!
+![LDA screen shot](/img/LDA.png)
 
 ## LSI Model
 ```
@@ -75,7 +75,7 @@ for index in range(0,t):
 print("-" * 117)
 ```
 
-screen shot!!
+![LSI screen shot](/img/LSI.png)
 
 ## Randomly pick one description from test to predict similarity.
 ```
@@ -87,7 +87,7 @@ print('-----This is the description from test that I am going to predict:-----')
 print(test_data)
 ```
 
-screen shot!!
+![random description selection](/img/random-sentence.png)
 
 ## LDA similarity
 ```
@@ -105,7 +105,7 @@ doc_id, similarity = LDA[1]
 print(train_data[doc_id][:100])
 ```
 
-screen shot!!
+![LDA similarity compare screen shot](/img/LDA-similarity.png)
 
 ## LSI similarity
 ```
@@ -118,9 +118,4 @@ doc_id_lsi, similarity_lsi = LSI[1]
 print(train_data[doc_id][:1000])
 ```
 
-screen shot!!
-
-
-## Here is where we can insert an image:
-
-![GW Data Science logo](/img/gwdsp.png)
+![LSI similarity compare screen shot](/img/LSI-similarity.png)
