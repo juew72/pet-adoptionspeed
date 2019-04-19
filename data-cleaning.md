@@ -6,7 +6,8 @@ bigimg: /img/start.jpg
 ---
 ## Changing values in different columns
 
-We can see that the following columns are all listed based on integers, which have corresponding values. In order to get better visualization, I will change all of them to strings. In specific, some values under Name column has 'No name yet', in order to get cleaned dataset, I change them to 'No Name', which are the same as null values. 
+The following columns are all listed based on integers, which have corresponding values. In order to get better visualization, I will change all of them to strings. In specific, some values under Name column has 'No name yet', in order to get cleaned dataset, I change them to 'No Name', which are the same as null values. 
+
 ---
 * three color columns (Color1, Color2, Color3)
 ---
