@@ -36,7 +36,7 @@ navbar-links:
     - Basic Visualization: "visualization"
     - More visualization & Conclusion: "visualization-conclusion"
   NLP:
-    - LSI & LDA: "lsi-lda"
+    - LSI & LDA: "lda-lsi"
     - Random Forest: "randomforest"
   Deep-Learning: "deep-learning"
   About me: "https://www.linkedin.com/school/george-washington-university/about/"
