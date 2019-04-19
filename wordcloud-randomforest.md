@@ -5,9 +5,10 @@ subtitle: word cloud & random forest
 bigimg: /img/start.jpg
 ---
 
-## Here is where we can insert an image:
+## Here is where we can insert an image:cat names and dog names
 
-![GW Data Science logo](/img/gwdsp.png)
+![cat word cloud](/img/cat.png)
+![dog word cloud](/img/dog.png)
 
 ## How about a link?
 
