@@ -4,11 +4,55 @@ title: Natural Language Processing
 subtitle: LDA & LSI
 bigimg: /img/start.jpg
 ---
+## Imported Packages
+```
+import nltk
+nltk.download('punkt')
+import re
+from gensim import models, corpora
+from nltk import word_tokenize
+from nltk.corpus import stopwords
+from nltk.stem import WordNetLemmatizer
+from gensim import similarities
+```
+
+## Select Descrition columns from train database
+```
+train_data = train['Description'].values.tolist()
+```
+
+## Basic cleaning for NLP: stopwords removal, lemmatizer, etc.
+```
+#Load stopwords
+stop_words = set(stopwords.words("english"))
+#Lemmatizer
+wordnet_lemmatizer = WordNetLemmatizer()
+
+def cleandata(review) :
+    clean_des = re.sub('[^a-zA-Z]', ' ', str(review)) # Remove punctuation/words not starting with alphabet
+    clean_des = clean_des.lower() # make words lower cases
+    words = word_tokenize(clean_des) # tokenize
+    words = [w for w in words if not w in stop_words] # stop words removal
+    words = [wordnet_lemmatizer.lemmatize(w) for w in words] #Lemmatize words
+    return words
+```
+
+## Choose number of topics
+```
+# Define the number of topics
+t = 10
+
+cleaned = []
+for description in train_data:
+    cleaned.append(cleandata(description))
+# Create a Dictionary associate word to id
+D = corpora.Dictionary(cleaned)
+
+# Transform texts to numeric
+corpra = [D.doc2bow(i) for i in cleaned]
+```
 
 ## LDA Model
-
-codes to apply LDA
-
 ```
 lda = models.LdaModel(corpus=corpra, num_topics=t, id2word=D)
 
@@ -21,9 +65,6 @@ print("-" * 120)
 Screen shot!!
 
 ## LSI Model
-
-codes to apply LSI
-
 ```
 lsi = models.LsiModel(corpus=corpra, num_topics=t, id2word=D)
 
