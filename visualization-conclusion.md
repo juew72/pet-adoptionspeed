@@ -5,11 +5,18 @@ subtitle: more visualization & conclusion
 bigimg: /img/start.jpg
 ---
 
-### Plotly Adoption Speed
+### Adoption Speed
 ```
-\{\% include colorfeehealth.html \%\}
+\{\% include adoptionspeed.html \%\}
 ```
+{% include adoptionspeed.html %}
 
+
+### Maturity Size
+
+{% include maturitysize.html %}
+
+Analysis:
 
 
 ### Breed
@@ -17,15 +24,6 @@ bigimg: /img/start.jpg
 \{\% include breed.html \%\}
 ```
 {% include breed.html %}
-
-Analysis:
-
-
-### Gender
-```
-\{\% include gender.html \%\}
-```
-{% include gender.html %}
 
 Analysis:
 
@@ -41,7 +39,10 @@ Analysis:
 
 
 ### Name
-
+```
+\{\% include name.html \%\}
+```
+{% include colorfeehealth.html %}
 
 Analysis:
 
