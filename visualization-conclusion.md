@@ -20,6 +20,12 @@ Some code might go here:
 ```
 x <- 5 # Here's some R code
 ```
+### Plotly Adoption Speed
+```
+\{\% include colorfeehealth.html \%\}
+```
+{% include colorfeehealth.html %}
+
 
 ### Breed
 ```
@@ -52,9 +58,3 @@ Analysis:
 
 Analysis:
 
-
-### Plotly Adoption Speed
-```
-\{\% include colorfeehealth.html \%\}
-```
-{% include colorfeehealth.html %}
