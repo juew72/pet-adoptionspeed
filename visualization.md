@@ -19,13 +19,6 @@ Analysis: here here here
 Analysis: 
 
 
-### Maturity Size
-
-{% include maturitysize.html %}
-
-Analysis:
-
-
 ### Fur Length
 
 {% include furlength.html %}
