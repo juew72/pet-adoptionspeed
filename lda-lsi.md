@@ -62,9 +62,8 @@ for index in range(0,t):
     print("Topic Number %s:" % str(index+1), lda.print_topic(index, 9))
 print("-" * 120)
 ```
---
+
 ![LDA screen shot](/img/lda.png)
---
 
 ## LSI Model
 ```
