@@ -37,7 +37,7 @@ navbar-links:
     - More visualization & Conclusion: "visualization-conclusion"
   NLP:
     - LSI & LDA: "lda-lsi"
-    - Word Cloud & Random Forest: "wordcould-randomforest"
+    - Word Cloud & Random Forest: "wordcloud-randomforest"
   Deep-Learning: "deep-learning"
   About me: "https://www.linkedin.com/school/george-washington-university/about/"
 
