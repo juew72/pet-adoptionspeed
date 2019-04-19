@@ -77,7 +77,7 @@ for index in range(0,t):
 print("-" * 117)
 ```
 
-![LSI screen shot](/img/LSI.png)
+![LSI screen shot](/img/lsi.png)
 
 ## Randomly pick one description from test to predict similarity.
 ```
@@ -107,7 +107,7 @@ doc_id, similarity = LDA[1]
 print(train_data[doc_id][:100])
 ```
 
-![LDA similarity compare screen shot](/img/LDA-similarity.png)
+![LDA similarity compare screen shot](/img/lda-similarity.png)
 
 ## LSI similarity
 ```
@@ -120,4 +120,4 @@ doc_id_lsi, similarity_lsi = LSI[1]
 print(train_data[doc_id][:1000])
 ```
 
-![LSI similarity compare screen shot](/img/LSI-similarity.png)
+![LSI similarity compare screen shot](/img/lsi-similarity.png)
