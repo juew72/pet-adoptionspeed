@@ -26,6 +26,7 @@ The following columns are all listed based on integers, which have corresponding
 * Gender
 ---
 * Name
+---
 
 
 #### Change the Color to Strings based on color_labels.csv
