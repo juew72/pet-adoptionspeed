@@ -9,24 +9,25 @@ bigimg: /img/start.jpg
 The following columns are all listed based on integers, which have corresponding values. In order to get better visualization, I will change all of them to strings. In specific, some values under Name column has 'No name yet', in order to get cleaned dataset, I change them to 'No Name', which are the same as null values. 
 
 ---
-* three color columns (Color1, Color2, Color3)
+- three color columns (Color1, Color2, Color3)
 ---
-* two breed columns (breed1, breed2)
+- two breed columns (breed1, breed2)
 ---
-* MaturitySize
+- MaturitySize
 ---
-* FurLength
+- FurLength
 ---
-* Vaccinated, Dewormed, Sterilized
+- Vaccinated, Dewormed, Sterilized
 ---
-* Health
+- Health
 ---
-* DataType
+- DataType
 ---
-* Gender
+- Gender
 ---
-* Name
+- Name
 ---
+
 
 
 #### Change the Color to Strings based on color_labels.csv
