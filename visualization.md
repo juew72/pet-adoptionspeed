@@ -6,44 +6,29 @@ bigimg: /img/start.jpg
 ---
 
 ### Adoption Speed
-```
-\{\% include adoptionspeed.html \%\}
-```
+
 {% include adoptionspeed.html %}
+
+Analysis: here here here
 
 
 ### Gender
-```
-\{\% include gender.html \%\}
-```
+
 {% include gender.html %}
+
+Analysis: 
 
 
 ### Maturity Size
-```
-\{\% include maturitysize.html \%\}
-```
+
 {% include maturitysize.html %}
+
+Analysis:
 
 
 ### Fur Length
-```
-\{\% include furlength.html \%\}
-```
+
 {% include furlength.html %}
 
-
-
-
-## Here is where we can insert an image:
-
-![GW Data Science logo](/img/gwdsp.png)
-
-## Or some code?
-
-Some code might go here:
-
-```
-x <- 5 # Here's some R code
-```
+Analysis:
 
