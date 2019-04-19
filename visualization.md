@@ -11,17 +11,6 @@ bigimg: /img/start.jpg
 ```
 {% include adoptionspeed.html %}
 
-### Age
-```
-\{\% include age.html \%\}
-```
-{% include age.html %}
-
-### Breed
-```
-\{\% include breed.html \%\}
-```
-{% include breed.html %}
 
 ### Gender
 ```
@@ -29,11 +18,13 @@ bigimg: /img/start.jpg
 ```
 {% include gender.html %}
 
+
 ### Maturity Size
 ```
 \{\% include maturitysize.html \%\}
 ```
 {% include maturitysize.html %}
+
 
 ### Fur Length
 ```
@@ -47,10 +38,6 @@ bigimg: /img/start.jpg
 ## Here is where we can insert an image:
 
 ![GW Data Science logo](/img/gwdsp.png)
-
-## How about a link?
-
-And of course some text, and maybe [a link to https://datasci.columbian.gwu.edu/](https://datasci.columbian.gwu.edu/)
 
 ## Or some code?
 
