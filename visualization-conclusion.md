@@ -35,7 +35,7 @@ Analysis:
 ```
 \{\% include colorfeehealth.html \%\}
 ```
-{% include colorfeehealth.html %}a
+{% include colorfeehealth.html %}
 
 Analysis:
 
