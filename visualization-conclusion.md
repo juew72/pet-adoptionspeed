@@ -39,3 +39,15 @@ Analysis:
 
 Analysis:
 
+
+## Here is where we can insert an image:
+
+![GW Data Science logo](/img/gwdsp.png)
+
+## Or some code?
+
+Some code might go here:
+
+```
+x <- 5 # Here's some R code
+```
