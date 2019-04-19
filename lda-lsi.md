@@ -53,7 +53,6 @@ corpra = [D.doc2bow(i) for i in cleaned]
 ```
 
 ## LDA Model
---
 ```
 lda = models.LdaModel(corpus=corpra, num_topics=t, id2word=D)
 
@@ -63,7 +62,6 @@ for index in range(0,t):
     print("Topic Number %s:" % str(index+1), lda.print_topic(index, 9))
 print("-" * 120)
 ```
---
 --
 ![LDA screen shot](/img/lda.png)
 --
