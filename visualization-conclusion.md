@@ -21,21 +21,37 @@ Some code might go here:
 x <- 5 # Here's some R code
 ```
 
+### Breed
+```
+\{\% include breed.html \%\}
+```
+{% include breed.html %}
+
+Analysis:
+
+
+### Gender
+```
+\{\% include gender.html \%\}
+```
+{% include gender.html %}
+
+Analysis:
+
+
 ### Color/ Fee/ Health Condition vs Adoption Speed
 ```
 \{\% include colorfeehealth.html \%\}
 ```
 {% include colorfeehealth.html %}
 
+
 ### Color & Fee & Health Condtion
 
 [Link to Tableau](https://public.tableau.com/profile/juew72#!/vizhome/others_15554523598650/ColorFeeHealthConditionAdoptionSpeed?publish=yes)
 
-### D3 version of Gender
-```
-\{\% include colorfeehealth.html \%\}
-```
-{% include colorfeehealth.html %}
+Analysis:
+
 
 ### Plotly Adoption Speed
 ```
