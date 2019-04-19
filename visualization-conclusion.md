@@ -9,7 +9,7 @@ bigimg: /img/start.jpg
 ```
 \{\% include colorfeehealth.html \%\}
 ```
-{% include colorfeehealth.html %}
+
 
 
 ### Breed
@@ -31,6 +31,7 @@ Analysis:
 
 
 ### Color/ Fee/ Health Condition vs Adoption Speed
+[Another Link to Tableau](https://public.tableau.com/profile/juew72#!/vizhome/others_15554523598650/ColorFeeHealthConditionAdoptionSpeed?publish=yes/)
 ```
 \{\% include colorfeehealth.html \%\}
 ```
