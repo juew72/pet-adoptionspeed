@@ -28,10 +28,9 @@ In detail: information is from official kaggle webpage
 
 {% include age.html %}
 
-{% include age-plotly.html}
-
 Analysis: We can see that most pets are young - maybe after the birth. Also there a lot of pets with an age equal to multiples of 12 - I think than owners didn't bother with the exact age.
 
+{% include age-plotly.html %}
 
 We can see that young pets are adopted quite fast and most of them are adopted; Most pets are less than 4 months old with a huge spike at 2 months; It seems that a lot of people don't input exact age and write age in years (or multiples of 12); It could make sense to create some binary variables based on age;
 
