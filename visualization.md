@@ -7,7 +7,7 @@ bigimg: /img/start.jpg
 
 ### Adoption Speed
 
-{% include adoptionspeed.html %}
+{% include adoption-plotly.html %}
 
 In detail: information is from official kaggle webpage
 0 - Pet was adopted on the same day as it was listed. 
