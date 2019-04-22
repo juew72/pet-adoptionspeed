@@ -20,6 +20,12 @@ In detail: information is from official kaggle webpage
  * some pets were adopted immediately, but no matter for dog or cat, this is a rare case. The reason it could happen might because someone wants to adopt any kind or breed of pet. But, as I said, the majority of pets (no matter dog or cat) is not being adopted at all.
  * cat has higher adoption speed than dog: more cats are adopted on the same day compared to the same day adoption on dog.
 
+### Age
+
+{% include age.html %}
+
+Analysis: 
+
 
 ### Gender
 
