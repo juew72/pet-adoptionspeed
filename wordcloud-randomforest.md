@@ -7,12 +7,9 @@ bigimg: /img/start.jpg
 
 ## Word Cloud for cat names and dog names
 
-Cat Names Word Cloud
+Cat Names Word Cloud    Dog Names Word Cloud
 
 ![cat word cloud](/img/cat.png)
-
-Dog Names Word Cloud
-
 ![dog word cloud](/img/dog.png)
 
 ## How about a link?
