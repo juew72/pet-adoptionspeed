@@ -13,10 +13,9 @@ bigimg: /img/start.jpg
 
 And of course some text, and maybe [a link to https://datasci.columbian.gwu.edu/](https://datasci.columbian.gwu.edu/)
 
-Here is a link to [gender-dog:](https://raw.githack.com/juew72/pet-adoptionspeed/master/gender-dog.html)
+Here is a link to gender-dog:
+
 What if I just paste the HTML for a plotly plot?
 
-{% include gender-dog.html %}
+{% include cat.html %}
 
-
-{% include gender-cat.html %}
