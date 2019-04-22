@@ -5,11 +5,6 @@ subtitle: more visualization & conclusion
 bigimg: /img/start.jpg
 ---
 
-### Adoption Speed
-
-{% include adoptionspeed.html %}
-
-
 ### Maturity Size
 
 {% include maturitysize.html %}
