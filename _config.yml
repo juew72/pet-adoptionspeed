@@ -34,8 +34,8 @@ navbar-links:
     - Data Cleaning: "data-cleaning"
   Visualization:
     - Basic Visualization: "visualization"
-    - More visualization & Conclusion: "visualization-conclusion"
-    - Dog & Cat: 'dog-cat'
+    - More visualization: "more-visualization"
+    - More visualization & Conclusion: 'visualization-conclusion'
   NLP:
     - LSI & LDA: "lda-lsi"
     - Word Cloud & Random Forest: "wordcloud-randomforest"
