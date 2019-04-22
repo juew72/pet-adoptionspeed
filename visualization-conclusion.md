@@ -51,7 +51,6 @@ Analysis:
 
 ### Name
 
-{% include Name vs AdoptionSpeed.html %}
 {% include name.html %}
 
 Analysis: It is worth noticing some things:
