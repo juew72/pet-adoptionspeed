@@ -28,6 +28,8 @@ In detail: information is from official kaggle webpage
 
 {% include age.html %}
 
+{% include age-plotly.html}
+
 Analysis: We can see that most pets are young - maybe after the birth. Also there a lot of pets with an age equal to multiples of 12 - I think than owners didn't bother with the exact age.
 
 
