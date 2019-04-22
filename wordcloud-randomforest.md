@@ -5,9 +5,12 @@ subtitle: word cloud & random forest
 bigimg: /img/start.jpg
 ---
 
-## Here is where we can insert an image:cat names and dog names
+## Word Cloud for cat names and dog names
 
+Cat Names Word Cloud
 ![cat word cloud](/img/cat.png)
+
+Dog Names Word Cloud
 ![dog word cloud](/img/dog.png)
 
 ## How about a link?
