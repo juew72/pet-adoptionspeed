@@ -6,13 +6,13 @@ bigimg: /img/start.jpg
 ---
 
 ### Adoption Speed
-```
-\{\% include adoptionspeed.html \%\}
-```
+
 {% include adoptionspeed.html %}
 
+
 ### Gender
-{% include adoptionspeed.html %}
+
+{% include gender.html %}
 
 
 ### Maturity Size
@@ -23,9 +23,7 @@ Analysis:We can see that maturity size isn't very important. Medium sized pets a
 
 
 ### Breed
-```
-\{\% include breed.html \%\}
-```
+
 {% include breed.html %}
 
 Analysis:
@@ -37,9 +35,7 @@ Analysis:
 
 ### Color/ Fee/ Health Condition vs Adoption Speed
 [Another Link to Tableau](https://public.tableau.com/profile/juew72#!/vizhome/others_15554523598650/ColorFeeHealthConditionAdoptionSpeed?publish=yes/)
-```
-\{\% include colorfeehealth.html \%\}
-```
+
 {% include colorfeehealth.html %}
 
 Analysis:
