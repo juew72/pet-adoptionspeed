@@ -10,11 +10,6 @@ bigimg: /img/start.jpg
 {% include adoptionspeed.html %}
 
 
-### Gender
-
-{% include gender.html %}
-
-
 ### Maturity Size
 
 {% include maturitysize.html %}
