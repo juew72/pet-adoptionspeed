@@ -32,7 +32,7 @@ We can see that young pets are adopted quite fast and most of them are adopted; 
 
 ### Gender
 
-HAHAHA
+{% include gender.html %}
 
 Analysis: 
 
