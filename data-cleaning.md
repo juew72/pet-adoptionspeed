@@ -161,18 +161,19 @@ df[['Gender']] = df[['Gender']].replace([1,2,3],['Male','Female','Neutered/Spray
 #### Change the Name variable
 * no name yet -> No name;
 * Nan -> No name;
+* No Name -> No name;
 
 ```
 # train:
-train['Name'] = train['Name'].replace('No Name Yet','No name')
+train['Name'] = train['Name'].replace(['No Name Yet', 'No Name'],['No name','No name'])
 train['Name'] = train['Name'].fillna('No name')
 
 # test:
-test['Name'] = test['Name'].replace('No Name Yet','No name')
+test['Name'] = test['Name'].replace(['No Name Yet', 'No Name'],['No name','No name'])
 test['Name'] = test['Name'].fillna('No name')
 
 # df:
-df['Name'] = df['Name'].replace('No Name Yet','No name')
+test['Name'] = test['Name'].replace(['No Name Yet', 'No Name'],['No name','No name'])
 df['Name'] = df['Name'].fillna('No name')
 ```
 
