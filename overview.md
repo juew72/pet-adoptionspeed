@@ -11,7 +11,7 @@ bigimg: /img/start.jpg
 
 ## How about a link?
 
-And of course some text, and maybe [a link to https://datasci.columbian.gwu.edu/](https://datasci.columbian.gwu.edu/)
+And of course some text, and maybe [a link to https://datasci.columbian.gwu.edu/](https://juew72.github.io/pet-adoptionspeed/test-cat/)
 
 ## Or some code?
 
