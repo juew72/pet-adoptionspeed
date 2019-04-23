@@ -25,6 +25,6 @@ What if I just paste the HTML for a plotly plot?
 
 We can do it with a line of markdown that looks like this (without the slashes - I haven't solved that problem just yet...):
 ```
-\{\% include gender-cat.html \%\}
+\{\% include age-plotly.html \%\}
 ```
-{% include gender-cat.html %}
+{% include age-plotly.html %}
