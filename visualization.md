@@ -37,11 +37,11 @@ We can see that young pets are adopted quite fast and most of them are adopted; 
 
 ### Gender
 
-Cat
+---
 
 {% include gender-cat.html %}
 
-Dog
+---
 
 {% include gender-dog.html %}
 
