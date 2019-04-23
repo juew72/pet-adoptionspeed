@@ -39,7 +39,7 @@ navbar-links:
   NLP:
     - LSI & LDA: "lda-lsi"
     - Word Cloud & Random Forest: "wordcloud-randomforest"
-  Deep-Learning: "deep-learning"
+  Deep-Learning: "test-cat"
   About me: "https://www.linkedin.com/school/george-washington-university/about/"
 
 # --- Footer options --- #
