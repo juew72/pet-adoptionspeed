@@ -40,11 +40,10 @@ rect:hover {  fill:blue; }
     align:right;
     width:50px;
 }
-
 </style>
+
 <body>
-<div id='dashboard'>
-</div>
+<div id='dashboard'></div>
 <script src="http://d3js.org/d3.v3.min.js"></script>
 <script>
 function dashboard(id, fData){
@@ -244,6 +243,7 @@ function dashboard(id, fData){
         leg= legend(tF);  // create the legend.
 }
 </script>
+	
 <script>
 var freqData=[
   {AdoptionSpeed:'0',freq:{female:118, male:88, other:34}}
