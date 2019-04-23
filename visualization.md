@@ -37,13 +37,11 @@ We can see that young pets are adopted quite fast and most of them are adopted; 
 
 ### Gender
 
-{% include gender-cat.html %}
+{% include gender.html %}
 
----
+Gender vs Adoption[(Cat)](https://juew72.github.io/pet-adoptionspeed/gender-cat)
 
-{% include gender-dog.html %}
-
----
+Gender vs Adoption[(Dog)](https://juew72.github.io/pet-adoptionspeed/gender-dog)
 
 Analysis: 
 
