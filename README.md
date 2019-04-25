@@ -8,8 +8,8 @@ There are four coding files:
 
 * Visualization.ipynb: include plotly visualizations and word cloud
 
+  * Tableau visualizations are included inside Visualization folder.
+
 * NLP.ipynb: include natural language processing
 
 * nlp2.py: ensemble model code. Need to connect to AWS or GCP or it will take at least 4 hours to run the code.
-
-* Tableau visualizations are included inside Visualization folder.
