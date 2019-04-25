@@ -109,6 +109,7 @@ X_train, X_test, y_train, y_test = train_test_split(X,y, test_size=0.1, random_s
 X_train.shape, X_test.shape, y_train.shape, y_test.shape
 # ------------------------------------------------------------------------------------
 # Evaluation of model: on CountVectorizer
+# n_estimator = 300, max_depth = 90
 # Variables define
 cv = CountVectorizer(ngram_range=(2,2),analyzer=cleandata) # defined before
 cv_fit = cv.fit(X_train['Description'])
@@ -140,7 +141,37 @@ plt.title("Confusion Matrix of best CountVectorizer model")
 plt.xlabel("Predicted Label")
 plt.ylabel("True Label")
 plt.show()
+# ------------------------------------------------------------------------------------
+# Evaluation of model: on tfidfVectorizer
+# num_estimator = 300, max_depth = None
+# Variables define
+tfidf = tfidfV(ngram_range=(2,2),analyzer=cleandata) # defined before
+tfidf_fit = tfidf.fit(X_train['Description'])
 
+tfidf_train = tfidf_fit.transform(X_train['Description'])
+tfidf_test = tfidf_fit.transform(X_test['Description'])
 
-## Note: I just plot for CountVectorizer since the best model for CountVectorizer has param_max_depth = 90, param_n_estimators = 300 has
+X_tfidf_train = pd.concat([X_train[['length', 'punctuation-percentage']].reset_index(drop=True),
+           pd.DataFrame(tfidf_train.toarray())], axis=1)
+X_tfidf_test = pd.concat([X_test[['length', 'punctuation-percentage']].reset_index(drop=True),
+           pd.DataFrame(tfidf_test.toarray())], axis=1)
 
+# Build model
+rf_tfidf = RandomForestClassifier(n_estimators=300, max_depth=None, n_jobs=-1)
+rf_model_tfidf = rf_tfidf.fit(X_tfidf_train, y_train)
+y_prediction_tfidf = rf_model_tfidf.predict(X_tfidf_test)
+
+precision, recall, fscore, train_support = f_score(y_test, y_prediction_tfidf, pos_label='spam', average='micro')
+print('Precision: {} --- Recall: {} --- F1-Score: {} --- Accuracy: {}'.format(
+    round(precision, 3), round(recall, 3), round(fscore,3), round(accuracy(y_test,y_prediction_tfidf), 3)))
+print(report(y_test, y_prediction_cv))
+# ------------------------------------------------------------------------------------
+# Making the Confusion Matrix: tfidfVectorizer
+matrixtfidf = confusion_matrix(y_test, y_prediction_tfidf)
+class_label = ['0','1','2','3','4']
+matrixtfidf_df = pd.DataFrame(matrixtfidf, index=class_label,columns=class_label)
+sns.heatmap(matrixcv_df, annot=True, fmt='d')
+plt.title("Confusion Matrix of best TF-IDFVectorizer model")
+plt.xlabel("Predicted Label")
+plt.ylabel("True Label")
+plt.show()
