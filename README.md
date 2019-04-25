@@ -9,6 +9,8 @@ There are four coding files:
 * Visualization.ipynb: include plotly visualizations and word cloud
 
   * Tableau visualizations are included inside Visualization folder.
+  
+  * D3 visualizations are two HTML files: gender-dog.html and gender-cat.html
 
 * NLP.ipynb: include natural language processing
 
