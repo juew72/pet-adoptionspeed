@@ -106,7 +106,7 @@ doc_id, similarity = LDA[1]
 print(train_data[doc_id][:100])
 ```
 
-![LDA similarity compare screen shot](/img/lda-similarity.png)
+![LDA similarity compare screen shot](/img/lda-similar.png)
 
 ## LSI similarity
 ```
@@ -119,4 +119,4 @@ doc_id_lsi, similarity_lsi = LSI[1]
 print(train_data[doc_id][:1000])
 ```
 
-![LSI similarity compare screen shot](/img/lsi-similarity.png)
+![LSI similarity compare screen shot](/img/lsi-similar.png)
