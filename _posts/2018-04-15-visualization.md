@@ -13,5 +13,3 @@ bigimg: /img/home.jpg
 
 * Next, pie charts, histograms, scatter plots, and line charts are useful in determining the nature of the interaction between the ‘AdoptionSpeed’ variable and each of the categorical variables under consideration. ‘Type’ variable is used as the stratification value between ‘AdoptionSpeed’ and the other categorical variables and also applying analysis on ‘AdoptionSpeed’ variable.
 
-
-![correlation among variables](/img/correlation.png)
