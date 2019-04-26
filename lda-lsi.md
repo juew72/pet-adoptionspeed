@@ -2,7 +2,7 @@
 layout: page
 title: Natural Language Processing
 subtitle: LDA & LSI
-bigimg: /img/start.jpg
+bigimg: /img/start-dog.jpg
 ---
 ## Imported Packages
 ```
