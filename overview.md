@@ -11,7 +11,7 @@ The data is from [Kaggle Pet Adoption](https://www.kaggle.com/c/petfinder-adopti
 
 
 
-* The original row datasets contain 25 features and 14,993 samples in train.csv and 24 features and 3,972 samples in test.csv.
+* The original raw datasets contain 25 features and 14,993 samples in train.csv and 24 features and 3,972 samples in test.csv.
 
 * Columns are: ‘AdoptionSpeed’, ‘Age’, ‘Breed1’, ‘Breed2’, ‘Color1’, ‘Color2’, ‘Color3’, ‘Description’, ‘Dewormed’, ‘Fee’,‘Fur Length’, ‘Gender’, ‘Health’, ‘MaturitySize’,‘PetID’, 'PhotoAmt', ‘Quantity’, 'RescuerID', 'State',‘Sterilized’, ‘Vaccinated’, 'VideoAmt'.
 
