@@ -15,3 +15,6 @@ There are four coding files:
 * NLP.ipynb: include natural language processing
 
 * nlp2.py: ensemble model code. Need to connect to AWS or GCP or it will take at least 4 hours to run the code.
+
+
+The code also published on Zenedo: https://zenodo.org/record/2651913#.XMKgVZNKh24
