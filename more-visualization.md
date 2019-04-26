@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Visualizations
-subtitle: more visualization for Maturity Size, Breed, Color, Fee, Health Condition
+subtitle: Maturity Size, Breed, Color, Fee, Health Condition
 bigimg: /img/start.jpg
 ---
 
