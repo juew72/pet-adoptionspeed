@@ -9,18 +9,16 @@ bigimg: /img/start.jpg
 
 {% include maturitysize.html %}
 
-Analysis:We can see that maturity size isn't very important. Medium sized pets are most common and they have slightly more chances to be not adopted; There are almost no Extra Large pets. I hope it means that their owners like them and there is no need for them to be adopted :) I wanted to gave a look at different pets, so I showed examples of pictures of most common breeds for each maturity size of cats and dogs; I think not all data is entirely correct: sometimes short haired cats have breed with "medium hair", not sure that all breeds are entirely correct. Some photoes have bad quality;
+*Analysis:*
+The medium size is the most common maturity size among all four sizes for pets. And there are almost no Extra-Large pets. The adoption speed of medium size pets has slightly higher than the others. Since there are 2973 not being adopted medium size pets, which is the largest number in medium size. For both medium and small size pets, it is more likely to be adopted within the 1st month, which is consistent with the results of some other studies (Žák et al., 2015): emphasizes that small dogs and medium dogs have the shortest length of stay and large dogs has the longest length of stay.
 
 
 ### Breed
 
 {% include breed.html %}
 
-Analysis:
- * It seems that non-pure breed pets tend to be adopted more and faster, especially cats.
- * It seems that not all values of these features are really breeds. Sometimes people simply write that the dogs has a mixed breed, cats often are described as domestic with certain hair length.
- * It seems that most dogs aren't pure breeds, but mixed breeds! My first assumption was wrong.
- * Sometimes people write "mixed breed" in the first fiels, sometimes in both, and sometimes main breed is in the first field and is marked as mixed breed in the second field.
+*Analysis:*
+Non-pure pets have higher and faster tendency to be adopted. And most of the dog breeds are not pure breeds but mix breeds. This result is similar to a previous study stated that mixed breeds have higher possibilities to be adopted compared with a specific breed (Němcová & Novák, 2003). Among the popular dog breeds, the top 2 breeds are Poddle and ShihTzu. Both of them are categorized as toy breeds or lapdogs.  (Protopopova et al., 2014) and (Svoboda & Hoffman, 2015) reveal that Shih Tzu is one of the most popular breeds among adopters. 
 
 
 ### Color/ Fee/ Health Condition vs Adoption Speed
@@ -28,13 +26,9 @@ Analysis:
 
 {% include colorfeehealth.html %}
 
-Analysis:
- * Color: We can see that most common colors are black and brown. Interesting to notice that there are almost no gray or yellow dogs
- * Health-condition: Almost all pets are healthy! Pets with minor injuries are rare and sadly they aren't adopted well. Number of pets with serious injuries is negligible. 
- * It is interesting that people prefer non-vaccinated pets. Maybe they want to bring pets to vets themselves... People also prefer non-sterilized pets! Maybe they want puppies/kittens :) 
- * Quite important is the fact that when there is no information about health condition, the probability of not being adopted is much higher; Healthy, dewormed and non-sterilized pets tend to be adopted faster! Completely healthy pets are... more likely to be not adopted! I suppose that means that a lot of people pay attention to other characteristics; And healthy pets with no information (not sure value) also tend to be adopted less frequently. Maybe people prefer having information, even if it is negative;
- * Fee: Most pets are free and it seems that asking for a fee slightly desreased the chance of adoption. Also free cats are adopted faster than free dogs -- another plot in python
-  * It is interesting that pets with high fee tend to be adopted quite fast! Maybe people prefer to pay for "better" pets: healthy, trained and so on;
-  * Most pets are given for free and fees are usually lower than 100 $;
-  * Fees for dogs tend to be higher, though these are rare cases anyway.
-  * It seems that fees and pet quantity have inversely proportional relationship. The less pets, the higher is the fee. I suppose these single pets are better trained and prepared than most others.
+*Analysis:*
+* Unlike previous research, which has revealed that yellow dogs have shorter stay in Shelter compared with black dogs (Kay, Coe, Young & Pearl, 2018). The most common colors are black and brown and there are almost no gray or yellow dogs. 
+
+* It is surprising that people prefer to adopt pets neither vaccinated nor sterilized. However, a healthy, dewormed pet tend to be adopted faster. One possible reason might be the pet age. Since most of the quickly adopted pets are less than 6 months, it is not a proper time to make pets fully vaccinated. Even though the dataset shows vaccinated pets are the minority but most of them do have deworming. This might because of veterinarian would recommend deworming pets for newborn pets, who are only 2 to 3 weeks. 
+
+* Lepper et al. (2012) found that pets suffering from injury problems have decreased their possibility to be adopted, probably because of the higher cost for care. Moreover, some adoptions of the injury pets may occur since adopters feel sympathy for these four-leg companions and more likely to take care of them.
