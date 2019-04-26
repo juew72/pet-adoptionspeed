@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Conclusion
-bigimg: /img/start.jpg
+bigimg: /img/start-dog.jpg
 ---
 
 ## Here is where we can insert an image:
