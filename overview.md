@@ -46,6 +46,6 @@ The data is from [Kaggle Pet Adoption](https://www.kaggle.com/c/petfinder-adopti
 
 * The top 5 breeds for cat or dog samples cover at least 75% of metadata, and many of the other breeds have less than 5 samples per breed name, or even 1 sample per breed name. 
 
-## Original metadata looks like...:
+## Original metadata looks like...
 
 ![original data](/img/original-data.png)
