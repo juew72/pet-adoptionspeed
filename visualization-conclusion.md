@@ -9,6 +9,11 @@ bigimg: /img/start.jpg
 
 {% include name.html %}
 
+## Word Cloud for cat names and dog names
+
+![cat word cloud](/img/cat.png)
+![dog word cloud](/img/dog.png)
+
 Analysis: It is worth noticing some things:
  * Often we see normal pet names like "Mimi", "Angel" and so on;
  * Quite often people write simply who is there for adoption: "Kitten", "Puppies";
