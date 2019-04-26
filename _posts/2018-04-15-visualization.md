@@ -2,7 +2,7 @@
 layout: post
 title: Visualization
 subtitle: correlation
-bigimg: /img/home-cat.jpg
+bigimg: /img/home.jpg
 ---
 
 # correlation among variables
