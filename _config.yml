@@ -38,8 +38,8 @@ navbar-links:
     - More visualization & Conclusion: 'visualization-conclusion'
   NLP:
     - LSI & LDA: "lda-lsi"
-    - Word Cloud & Random Forest: "wordcloud-randomforest"
-  Deep-Learning: "test-cat"
+    - Multinomial & Random Forest: "multinomial-randomforest"
+  Conclusion: "conclusion"
   About me: "https://www.linkedin.com/school/george-washington-university/about/"
 
 # --- Footer options --- #
