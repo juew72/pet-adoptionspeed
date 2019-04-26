@@ -35,7 +35,7 @@ navbar-links:
   Visualization:
     - Basic Visualization: "visualization"
     - More visualization: "more-visualization"
-    - More visualization & Conclusion: 'visualization-conclusion'
+    - More visualization & Conclusion: 'visualization-name'
   NLP:
     - LSI & LDA: "lda-lsi"
     - Multinomial & Random Forest: "multinomial-randomforest"
