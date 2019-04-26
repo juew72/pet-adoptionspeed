@@ -21,7 +21,7 @@ The original data can be downloaded from : https://www.kaggle.com/c/petfinder-ad
    * re
    * random
    * nltk   
-    * use nltk.downloader() after installation finished to install packages: stopwords; punkt; 
+    * use nltk.downloader() after installation finished to install packages: stopwords; punkt; wordnet
    * gensim
    * sklearn
    * string
