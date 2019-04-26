@@ -23,12 +23,12 @@ In detail: information is from official kaggle webpage:
 
 
 *Analysis:* 
- * For both dog and cat, the same day adoption has 2.73%; adopted within the 1st week has 20.6%; adopted within the 1st month has 21.7%; adopted within 2-3 months has 26.9% and not being adopted has the highest 28%. Some pets are adopted immediately but this is a rare case. The reason it happened might because of the eager to adopt from people. Someone is willing to adopt a dog or cat, or listed pet is exactly what he or she wants from every aspect, such as breed, color, size, fee, etc. 
+For both dog and cat, the same day adoption has 2.73%; adopted within the 1st week has 20.6%; adopted within the 1st month has 21.7%; adopted within 2-3 months has 26.9% and not being adopted has the highest 28%. Some pets are adopted immediately but this is a rare case. The reason it happened might because of the eager to adopt from people. Someone is willing to adopt a dog or cat, or listed pet is exactly what he or she wants from every aspect, such as breed, color, size, fee, etc. 
  
 {% include adoptionspeed.html %}
 
 *Analysis:* 
- * It shows cat has higher adoption speed than the dog on the same day adoption and adoption happened in the first month. The total number of cats not being adopted is much smaller than the total number of dogs not being adopted (1783 vs 2414). This might because of people’s conception of human-companion animal relationship, and the everyday efforts that required in keeping a good companion-animal guardianship (O’Connor, Coe, Niel, & Jones-Bitton, 2016). The research shows the most of dog adopters assume more effort required and less easiness to take care of pets than cat adopters believe.
+It shows cat has higher adoption speed than the dog on the same day adoption and adoption happened in the first month. The total number of cats not being adopted is much smaller than the total number of dogs not being adopted (1783 vs 2414). This might because of people’s conception of human-companion animal relationship, and the everyday efforts that required in keeping a good companion-animal guardianship (O’Connor, Coe, Niel, & Jones-Bitton, 2016). The research shows the most of dog adopters assume more effort required and less easiness to take care of pets than cat adopters believe.
 
 ### Age
 
