@@ -7,5 +7,3 @@ According to the American Society for the Prevention of Cruelty to Animals (ASPC
 
 Without any adoption happened to those pets, they will be crucially euthanized due to the limited space and any other food or financial resources in shelter or any pet adoption organization. Or for other reasons, such as no-kill shelters, non-aggressive breeds, or having a higher likelihood to be adopted pets, shelters will keep those pets until they are adopted (American Veterinary Medical Association, 2002). However, the criteria applied for holding a dog in a shelter for adoption are comprehensively subjective and will consider the characteristics such as breed, age, gender, size, temperament, health, and appearance (Winograd, 2009).
 
-In this article, I will evaluate the animal adoption speed from the Kaggle website. The effects of the physical characteristics of age, gender, breed, color, fur length, maturity size, health condition, whether the pets are being vaccinated, dewormed or sterilized and using machine learning tools to analyze associations between description and adoption speed.
-
