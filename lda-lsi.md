@@ -88,7 +88,7 @@ print('-----This is the description from test that I am going to predict:-----')
 print(test_data)
 ```
 
-![random description selection](/img/random-sentence.png)
+![random description selection](/img/random-select.png)
 
 ## LDA similarity
 ```
