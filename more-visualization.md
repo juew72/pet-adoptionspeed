@@ -32,3 +32,8 @@ Non-pure pets have higher and faster tendency to be adopted. And most of the dog
 * It is surprising that people prefer to adopt pets neither vaccinated nor sterilized. However, a healthy, dewormed pet tend to be adopted faster. One possible reason might be the pet age. Since most of the quickly adopted pets are less than 6 months, it is not a proper time to make pets fully vaccinated. Even though the dataset shows vaccinated pets are the minority but most of them do have deworming. This might because of veterinarian would recommend deworming pets for newborn pets, who are only 2 to 3 weeks. 
 
 * Lepper et al. (2012) found that pets suffering from injury problems have decreased their possibility to be adopted, probably because of the higher cost for care. Moreover, some adoptions of the injury pets may occur since adopters feel sympathy for these four-leg companions and more likely to take care of them.
+
+![fee](/img/fee.png)
+
+*Analysis:
+* Most of the pets are free or have a fee lower than $100 and to adopt a free dog is slower than to adopt a free cat. For some pets, as the quantity of the pets significantly lower, the fee is significantly higher. This probably because of the well-trained or some relatively expensive pure breed they are belonging to. 
