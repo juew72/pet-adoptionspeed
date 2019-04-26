@@ -4,26 +4,21 @@ title: Conclusion
 bigimg: /img/start-dog.jpg
 ---
 
-## Here is where we can insert an image:
+* From visualization: the physical characteristics of age scaled in months, cat or dog, colors of pet, gender, maturity size, fur length, any injury, a specific breed of cats or dog, have impacts on adoption speed.
 
-![GW Data Science logo](/img/gwdsp.png)
+ * young pets are adopted fast and most of them are adopted compared to old pets.
+ 
+ * male pets are adopted faster than female pets even though previous study shows female pets might be popular.
+ 
+ * adopter prefer longer coat than shorter coat.
+ 
+* From NLP: 
 
-## How about a link?
-
-And of course some text, and maybe [a link to https://datasci.columbian.gwu.edu/](https://datasci.columbian.gwu.edu/)
-
-## Or some code?
-
-Some code might go here:
-
-```
-x <- 5 # Here's some R code
-```
-
-What if I just paste the HTML for a plotly plot?
-
-We can do it with a line of markdown that looks like this (without the slashes - I haven't solved that problem just yet...):
-```
-\{\% include jupyter-basic_bar.html \%\}
-```
-{% include jupyter-basic_bar.html %}
+ * Multinominal model has 35% of accuracy; Random Forest with 2-gram vectorizer has 42.2% of accuracy; Random Forest with Tf-IDF has 43% of accuracy.
+ 
+  * Problem is that there is other language in the description.
+  
+  * Some descriptions only has characters like :) , which will be removed after text cleaning process.
+  
+  * Maybe can try word2vec.
+ 
