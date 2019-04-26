@@ -28,11 +28,10 @@ model = Pipeline([('vectorizer', tfvec),('rf', MultinomialNB(alpha=0.0))])
 * Code
 
 ```
+
 ```
 
-* Since the ensemble model shows: n_estimator=300, max_depth=90 has the best result
-
-![cv best result](/img/cv.png)
+* the ensemble model shows: n_estimator=300, max_depth=90 has the best result
 
 * Accuracy 
 
@@ -47,11 +46,10 @@ model = Pipeline([('vectorizer', tfvec),('rf', MultinomialNB(alpha=0.0))])
 * Code
 
 ```
+
 ```
 
-* Since the ensemble model shows: n_estimator=300, max_depth=None has the best result
-
-![tf-idf best result](/img/tf-idf.png)
+* The ensemble model shows: n_estimator=300, max_depth=None has the best result
 
 * Accuracy
 
