@@ -2,7 +2,7 @@
 layout: page
 title: Data Cleaning
 subtitle: 
-bigimg: /img/start.jpg
+bigimg: /img/start-dog.jpg
 ---
 ## Changing values in different columns
 
