@@ -2,7 +2,7 @@
 layout: page
 title: Visualization
 subtitle: Adoption Speed, Age, Gender, Fur Length
-bigimg: /img/start1.jpg
+bigimg: /img/start-dog.jpg
 ---
 
 ### Adoption Speed
