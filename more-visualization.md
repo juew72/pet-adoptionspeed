@@ -35,5 +35,5 @@ Non-pure pets have higher and faster tendency to be adopted. And most of the dog
 
 ![fee](/img/fee.png)
 
-*Analysis:
+*Analysis:*
 * Most of the pets are free or have a fee lower than $100 and to adopt a free dog is slower than to adopt a free cat. For some pets, as the quantity of the pets significantly lower, the fee is significantly higher. This probably because of the well-trained or some relatively expensive pure breed they are belonging to. 
