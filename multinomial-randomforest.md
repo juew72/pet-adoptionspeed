@@ -2,7 +2,7 @@
 layout: page
 title: Natural Language Processing
 subtitle: Multinominal &  Random Forest
-bigimg: /img/start.jpg
+bigimg: /img/start1.jpg
 ---
 
 ## Multinominal Classification
