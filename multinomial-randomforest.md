@@ -5,10 +5,7 @@ subtitle: word cloud & random forest
 bigimg: /img/start.jpg
 ---
 
-## Word Cloud for cat names and dog names
 
-![cat word cloud](/img/cat.png)
-![dog word cloud](/img/dog.png)
 
 ## How about a link?
 
