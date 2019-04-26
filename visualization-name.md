@@ -2,7 +2,7 @@
 layout: page
 title: Visualization
 subtitle: visualizations for Name
-bigimg: /img/start1.jpg
+bigimg: /img/start-dog.jpg
 ---
 
 ### Name
