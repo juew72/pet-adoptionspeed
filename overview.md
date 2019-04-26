@@ -1,13 +1,13 @@
 ---
 layout: page
-title: Markdown-based page example
-subtitle: Subtitle goes here
-bigimg: /img/start.jpg
+title: Metadata Overview
+subtitle: overview
+bigimg: /img/start1.jpg
 ---
 
 ## Here is where we can insert an image:
 
-![GW Data Science logo](/img/gwdsp.png)
+![original data](/img/original-data.png)
 
 ## How about a link?
 
