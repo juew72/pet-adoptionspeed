@@ -40,7 +40,7 @@ navbar-links:
     - LSI & LDA: "lda-lsi"
     - Multinomial & Random Forest: "multinomial-randomforest"
   Conclusion: "conclusion"
-  About me: "https://www.linkedin.com/school/george-washington-university/about/"
+  code: "https://github.com/juew72/pet-adoptionspeed"
 
 # --- Footer options --- #
 
