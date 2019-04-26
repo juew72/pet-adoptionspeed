@@ -18,10 +18,6 @@ bigimg: /img/start.jpg
 
 ![popular name](/img/popular-name.png)
 
-# pets without name in each adoption speed
-
-
-
 # less than 3 character names
 
 ![less than three character names](/img/name.png)
