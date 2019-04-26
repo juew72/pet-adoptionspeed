@@ -2,7 +2,7 @@
 layout: page
 title: Metadata Overview
 subtitle: overview
-bigimg: /img/start1.jpg
+bigimg: /img/start-dog.jpg
 ---
 
 ## Here is where we can insert an image:
