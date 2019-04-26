@@ -14,6 +14,18 @@ bigimg: /img/start.jpg
 ![cat word cloud](/img/cat.png)
 ![dog word cloud](/img/dog.png)
 
+## top 3 popular name
+
+![popular name](/img/popular-name.png)
+
+# pets without name in each adoption speed
+
+
+
+# less than 3 character names
+
+![less than three character names](/img/name.png)
+
 *Analysis:*
 * the popular pet names are ‘Lucky, ‘Mimi’, ‘Brownie’, etc. There are also type of pets like ‘Kitten’, ‘Puppies’ and even genders ‘Girl’, ‘Boy’.
 * there are around 10% of pets do not have names, however, their possibility to be adopted is higher than pets having names. 
