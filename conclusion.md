@@ -4,7 +4,9 @@ title: Conclusion
 bigimg: /img/start-dog.jpg
 ---
 
-* From visualization: the physical characteristics of age scaled in months, cat or dog, colors of pet, gender, maturity size, fur length, any injury, a specific breed of cats or dog, have impacts on adoption speed.
+* From visualization: 
+
+ * the physical characteristics of age scaled in months, cat or dog, colors of pet, gender, maturity size, fur length, any injury, a specific breed of cats or dog, have impacts on adoption speed.
 
  * young pets are adopted fast and most of them are adopted compared to old pets.
  
