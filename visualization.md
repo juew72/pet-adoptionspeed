@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Visualization
-subtitle: visualizations for Adoption Speed, Age, Gender, Fur Length
+subtitle: Adoption Speed, Age, Gender, Fur Length
 bigimg: /img/start.jpg
 ---
 
