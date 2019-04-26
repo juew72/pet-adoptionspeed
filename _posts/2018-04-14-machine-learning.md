@@ -2,6 +2,7 @@
 layout: post
 title: Machine Learning Application
 subtitle: Multinomial Naive Bayes & Random Forest
+bigimg: /img/home-cat.jpg
 ---
 
 * The two models on NLP chosen for ‘Description’ variable and ‘AdoptionSpeed’ variable are Multinomial Naïve Bayes Classifier and ensemble method classification. On the first try, Multinomial Naïve Bayes classifier is applied since it provides a nice baseline for several variants of a classifier, the multinomial variant will be the one most suitable for word counts. 
