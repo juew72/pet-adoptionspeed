@@ -1,9 +1,11 @@
 
-# DATS6501 Capstone project.
+# DATS6501 Capstone Project
 
 The purpose of this project is to demonstrate data mining techniques, visualization, and Natural Language Processing (NLP) using the metadata of pet adoption from the Kaggle website for pet adoption speed prediction and trends. Visualization focused on the following data: age scaled in months, cat or dog, colors of pet, gender, maturity size, fur length, whether vaccinated or dewormed or sterilized, any injury, top 5 breeds of cat and dog separately, name, and adoption speed. NLP Modeling focused on the following data: description of pets and adoption speed. Multinomial Naïve Bayes Classifier correctly assessed the adoption speed based on descriptions of pets with 35% accuracy. The ensemble method to find the best Random Forest model with 2-Grams vectorizer and TF-IDF vectorizer also applied. The Random Forest Classifier predicted adoption speed based on descriptions with 45% of accuracy. Finally, the limitation and further improvements are provided, and the review of results is extracted.
 
-The pet adoption information page: https://www.kaggle.com/c/petfinder-adoption-prediction/data
+The pet adoption data page: https://www.kaggle.com/c/petfinder-adoption-prediction/data
+
+The information page: https://juew72.github.io/pet-adoptionspeed/
 
 # Running the code
 
